@@ -1,2 +1,2 @@
-import gallary from "./gallary-items";
-console.log(gallary);
+import imageArray from "./gallary-items.js";
+console.log(imageArray);
