@@ -6,7 +6,7 @@ const modalWindowPicture = document.querySelector('.lightbox__image');
 const modalWindowOverlay = document.querySelector('.lightbox__overlay');
 const modalWindowClose = document.querySelector('button[data-action="close-lightbox"]');
 
-let pictureNumber = 0;
+// let pictureNumber = 0;
 
 const galleryMarkup = createGalleryMarkup(imageArray);
 
@@ -55,11 +55,3 @@ function ModalWindowClose(evt){
     modalWindow.classList.remove('is-open');
     modalWindowPicture.setAttribute('src', '');
 }
-
-function PictureChange(evt){
-    // const pictureNumber = 
-    if (evt.key === 'ArrowRight' && modalWindow.classList.contains('is-open')) { console.log(modalWindowPicture.nextSibling.original); }
-}
-
-// ArrowRight
-// homework-08.js:22 ArrowLeft
