@@ -19,7 +19,6 @@ modalWindowOverlay.addEventListener('click', ModalWindowClose);
 document.addEventListener('keyup', function(evt) {
     if (evt.key === 'Escape') ModalWindowClose()});
 
-document.addEventListener('keyup', PictureChange);
 
 function createGalleryMarkup (images){
 return images.map(({preview, original, description}) => {
